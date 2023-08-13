@@ -1,11 +1,8 @@
 package main
 
 import "fmt"
-
-func greeting () string {
-  return "Hello World!"
-}
+import greet "github.com/cstml/go-hello-world/greeting"
 
 func main () {
-  fmt.Println(greeting())
+  fmt.Println(greet.Greet, "!")
 }
