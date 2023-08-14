@@ -1,5 +1,4 @@
 package greeting
 
-const (
-  Greet = "Hello World"
-)
+// An oftenly seen greeting.
+const Greet = "Hello World"
